@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500;700;800&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+	box-sizing: border-box;
+}
+
+.reg-form{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.wrapper h1{
+	padding-bottom:  30px;
+	text-align: center;
+	font-family: 'Times New Roman';
+
+}
+.wrapper{
+	margin-top: 100px;
+	width: 450px;
+	padding: 30px;
+	background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.reg-form .wrapper .input-data{
+	height: 40px
+	width:100%;
+	position: relative;
+}
+
+.reg-form .wrapper .input-data input{
+	height: 100%;
+	width: 100%;
+	border:none;
+	border-bottom: 2px solid blue;
+	font-size: 17px;
+
+}
+
+.reg-form .wrapper .inner .input_icon{
+	position: relative;
+	left: 15px;
+	top: 90%;
+	transform: translateY(-50%);
+	color: 	#777;
+	font-size: 13px;
+
+}
+
+.input-data input:focus~label{
+	transform: translateY(-10px);
+	color: blue;
+}
+.reg-form .wrapper .input-data label{
+	position: absolute;
+	bottom: 10px;
+	left: 0;
+	color: black;
+	pointer-events: none;
+	transition: all 0.3s ease;
+	font-family: 'Jokerman';
+
+}
+
+
+.form_bg
+{
+	display: flex;
+	align-items: center;
+}
+
+.form_horizontal
+{
+	font-family: 'lato' , sans-serif;
+	color: brown;
+	margin-top: 150px;
+	text-align: center;
+	background-color: #ffffff;
+	height: 400px;
+
+}
+
+.form_horizontal .form_icon
+{
+    color: brown;
+	font-size: 70px;
+	line-height: 95px;
+	margin: 0 0 13px;
+	align-content: center;
+}
+
+.form_horizontal .title
+{
+	font-family: 'Times New Roman';
+	color: brown;
+	font-size: 25px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin: 0 0 35px 0;
+}
+
+.form_horizontal .form-group
+{
+	margin: 0 0 10px;
+	position: relative;
+	font-size: 17px;
+	color: black;
+}
+
+.form_horizontal .input-icon
+{
+	position: absolute;
+	left: 15px;
+	top: 67%;
+	transform: translateY(-50%);
+	color: 	#222;
+	font-size: 13px;
+}
+
+.form_horizontal .form-control
+{
+	color: 	#555;
+	background-color: #dfe4ea;
+	font-size: 13px;
+	letter-spacing: 1px;
+	height: 37px;
+	padding: 2px 15px 2px 35px;
+}
+
+.form_horizontal .form-control::placeholder
+{
+	color: rgba(0,0,0,0.7);
+	font-size: 14px;
+	text-transform: capitalize;
+	font-family: 'Times New Roman';
+}
+
+.form_horizontal .btn
+{
+	color: white;
+	font-size: 15px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	margin: 0 0 15px 0;
+	text-transform: capitalize;
+	margin-top: 5px;
+}
+
+.form_horizontal .form_option a 
+{
+	color: black;
+	position: absolute;
+	letter-spacing: 0.5px;
+	margin: 0 0 10px;
+	display: block;
+	font-size: 10px;
+}

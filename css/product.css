@@ -1,0 +1,166 @@
+*{
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+	}
+
+ .menu
+ {
+ 	width: 25%;
+ 	float: left;
+ 	padding: 15px;
+ }
+ .content
+ {
+ 	width: 75%;
+ 	float: left;
+ 	padding: 5px;
+ }
+
+	.menu .box{
+    font-family: 'Times New Roman';
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 5px 25px rgba(0,0,0,.4);
+    }
+
+    .box h2{ 
+	color: #fff; 
+	background: linear-gradient(to right,#b33939,#2C3A47);
+	background-color: #2d98da; 
+	padding: 10px 20px; 
+	font-weight: 700;
+	border-top-left-radius: 10px; 
+	border-top-right-radius: 10px;
+}
+
+
+.box ul{
+    background-color: #fff;
+}
+
+.box ul li:hover{
+}
+
+.box ul li{
+    list-style: none;
+    padding: 10px;
+    width: 80%;
+    margin-left: 20px;
+    background-color: #fff;
+    font-size: 20px;
+    transition: transform 0.5s;
+}
+
+.box ul li:hover{
+    transform: scale(1.1);
+    z-index: 100;
+    border-radius: 10px;
+    background: linear-gradient(to right,#b33939,#747d8c);
+    background-color: #2d98da;
+    color: #fff;
+}
+
+.box ul li span{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    background-color: #2d98da;
+    color: #fff;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 5px;
+    font-size: 12px;
+    font-weight: 600;
+    transform: translateY(-2px);
+}
+
+.box ul li:hover span{
+    background-color: #fff;
+    color: #2d98da;
+}
+
+.card
+	{
+		position: relative;
+		width: 450px;
+		height: 350px;
+		background: ;
+		border-radius: 20px;
+		overflow: hidden;
+	}
+
+	.card:hover
+	{
+		position: relative;
+		width: 450px;
+		height: 365px;
+		background: ;
+		border-radius: 20px;
+		overflow: hidden;
+		transition: 0.3s;
+	}
+
+	.card .imgBox
+	{
+		position: relative;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-top: 20px;
+		z-index: 1;
+	}
+	.card .imgBox img
+	{
+		max-height: 100%;
+		transition: 0.5px;
+	}
+	.card:hover .imgBox
+	{
+		max-height: 50%;
+	}
+	.card .contentBox
+	{
+		position: relative;
+		display: flex;
+		padding: 10px;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		z-index: 1;
+		font-size: 18px;
+		color: #000;
+		font-weight: 400;
+		text-transform: capitalize;
+	}
+	.card .contentBox .price
+	{
+		font-size: 24px;
+		color: #fff;
+		font-weight: 400;
+		letter-spacing: 1px;
+	}
+
+	.card .contentBox .cart_btn
+	{
+		position: relative;
+		top: 200px;
+		opacity: 0;
+		padding: 8px 10px;
+		margin-top: 15px;
+		color: #fff;
+		text-decoration: none;
+		background: blue;
+		border-radius: 30px;
+		text-transform: 0.5s;
+		letter-spacing: 0.5ms;
+		transition: 0.5s;
+	}
+
+	.card:hover .contentBox .cart_btn 
+	{
+		top: 0;
+		opacity: 1;
+	}
